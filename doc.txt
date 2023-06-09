@@ -1,0 +1,7 @@
+if client connects... HI is sent
+
+F
+B
+L
+R
+S

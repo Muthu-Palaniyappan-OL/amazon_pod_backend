@@ -1,0 +1,18 @@
+# Get Request
+GET / HTTP/1.1
+host: localhost:8080
+
+###
+
+# Websocket
+GET / HTTP/1.1
+host: localhost:8080
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Key: ghWJRyD3CzCA+tWG0eYQtA==
+Sec-WebSocket-Version: 13
+
+
+###
+
+FIN=1, opcode=0x1, msg="hello"
